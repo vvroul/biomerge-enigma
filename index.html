@@ -22,14 +22,14 @@ NAME blueprint
 255,255,255
 
 PAL 1
-0,255,49
-224,226,236
-250,0,255
+17,74,24
+236,91,2
+255,255,255
 
 PAL 2
-49,255,0
-255,0,233
-5,255,0
+61,66,61
+90,105,95
+187,254,191
 
 PAL 3
 229,255,0
@@ -37,14 +37,14 @@ PAL 3
 255,7,0
 
 PAL 4
-0,218,255
-255,55,0
-0,31,255
+0,0,0
+0,0,0
+140,105,58
 
 PAL 5
-0,208,255
-149,0,255
-255,167,0
+0,0,0
+28,28,26
+140,105,58
 
 PAL 6
 0,255,48
@@ -72,56 +72,259 @@ PAL a
 0,255,245
 
 ROOM 0
-0,0,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,a,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,e
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,0,0
-a,0,0,0,0,0,0,0,0,0,0,0,0,a,a,0
-0,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-0,0,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-NAME Room of Rebirth
-ITM 0 9,12
-EXT 15,8 1 1,8 FX fade_b DLG 5
+h,t,t,h,h,h,h,h,h,t,t,t,t,t,t,h
+t,h,h,0,0,0,0,0,0,h,h,t,0,t,h,h
+t,h,0,0,0,0,0,0,0,0,0,h,t,h,t,t
+h,0,0,0,0,0,0,0,h,h,0,h,h,h,t,t
+h,0,0,0,0,0,h,h,0,0,0,0,0,h,t,t
+h,0,0,h,h,h,0,0,0,0,0,0,0,t,t,t
+h,h,0,0,0,0,h,0,0,0,0,0,0,t,t,h
+t,h,0,0,0,0,0,h,h,0,0,0,0,h,t,t
+t,t,h,0,0,0,0,0,0,h,0,0,0,0,t,t
+h,h,t,h,0,i,0,0,i,0,h,0,0,0,h,h
+h,t,t,h,0,0,0,0,0,0,0,h,0,0,t,t
+t,t,h,h,0,i,0,0,i,0,0,h,0,0,t,t
+t,t,h,h,0,0,0,0,0,0,h,0,0,0,h,t
+t,h,h,h,h,i,0,0,i,h,0,0,0,0,h,t
+h,h,t,t,h,h,h,h,h,0,0,0,0,0,h,h
+h,t,t,t,t,h,h,0,0,0,0,e,0,0,0,h
+NAME Rebirth
+ITM 0 7,13
+EXT 11,15 1 1,14 DLG 5
 PAL 0
 
 ROOM 1
+g,g,g,j,j,g,g,0,e,0,g,g,j,g,g,g
+g,g,g,j,j,g,g,0,0,0,g,g,j,j,g,g
+g,g,j,j,j,j,g,g,g,g,g,g,g,g,g,g
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+g,g,j,f,f,j,j,0,0,0,j,j,j,g,0,p
+g,g,g,j,f,f,j,j,0,0,0,j,g,g,j,j
+g,g,g,j,j,j,j,j,j,j,0,0,0,g,g,g
+j,g,g,g,j,j,j,g,g,f,j,j,0,j,j,j
+j,j,j,j,j,j,g,g,g,g,f,g,0,j,j,j
+j,f,j,j,j,j,g,g,g,g,g,j,0,j,j,j
+j,j,f,j,j,j,g,g,g,g,j,0,0,j,j,j
+j,j,j,j,j,j,j,j,j,j,0,0,j,j,j,g
+j,j,j,j,j,j,0,0,0,0,0,j,j,g,g,g
+j,j,j,j,0,0,0,j,j,j,j,g,g,g,g,g
+0,0,0,0,0,j,j,j,j,j,j,g,g,g,g,g
+j,j,j,j,j,j,j,j,j,j,j,j,g,g,g,j
+NAME Self Acknowledgement
+EXT 14,4 2 14,4 DLG d
+PAL 1
+
+ROOM 2
+g,g,g,j,j,g,g,0,e,0,g,g,j,g,g,g
+g,g,g,j,j,g,g,0,0,0,g,g,j,j,g,g
+g,g,j,j,j,j,g,g,g,g,g,g,g,g,g,g
+m,m,m,m,m,m,0,0,0,0,0,m,m,m,m,m
+g,g,j,f,f,j,j,0,0,0,j,j,j,g,0,q
+g,g,g,j,f,f,j,j,0,0,0,j,g,g,j,j
+g,g,g,j,j,j,j,j,j,j,0,0,0,g,g,g
+j,g,g,g,j,j,j,g,g,f,j,j,0,j,j,j
+j,j,j,j,j,j,g,g,g,g,f,g,0,j,j,j
+j,f,j,j,j,j,g,g,g,g,g,j,0,j,j,j
+j,j,f,j,j,j,g,g,g,g,j,0,0,j,j,j
+j,j,j,j,j,j,j,j,j,j,0,0,j,j,j,g
+j,j,j,j,j,j,0,0,0,0,0,j,j,g,g,g
+j,j,j,j,0,0,0,j,j,j,j,g,g,g,g,g
+0,0,0,0,0,j,j,j,j,j,j,g,g,g,g,g
+j,j,j,j,j,j,j,j,j,j,j,j,g,g,g,j
+NAME Self Acknowledgement 2
+EXT 8,0 5 9,15
+PAL 1
+
+ROOM 5
+u,u,u,u,u,u,u,u,u,a,u,a,u,a,u,u
+u,u,u,u,a,u,u,u,a,a,u,a,u,u,a,u
+a,a,u,u,a,a,a,u,a,u,u,a,u,u,u,u
+u,a,u,u,u,a,u,u,u,u,a,a,u,u,a,a
+u,a,a,a,a,a,a,u,u,u,a,u,u,u,u,a
+u,u,u,u,a,u,u,a,a,u,a,a,u,u,u,a
+a,u,u,u,a,u,u,u,u,u,u,u,u,u,u,a
+u,u,u,a,u,a,a,u,u,u,0,a,u,a,u,u
+u,u,a,a,u,u,u,u,u,u,0,a,a,u,a,u
+u,a,u,u,u,u,u,u,u,u,u,a,a,u,a,u
+u,u,a,u,u,u,u,u,u,u,u,u,a,u,u,u
+u,u,a,a,a,a,a,u,u,u,a,a,a,a,a,u
+u,u,u,u,u,u,a,u,u,a,a,0,w,w,a,u
+u,u,u,a,u,u,u,u,a,a,a,a,a,w,a,u
+u,u,u,a,a,u,a,u,u,a,a,a,a,w,a,u
+a,a,a,a,u,a,a,u,a,u,w,w,w,w,a,a
+NAME Dark Sovereigns
+ITM 1 11,12
+ITM 2 10,15
+ITM 2 11,15
+ITM 2 12,15
+ITM 2 13,15
+ITM 2 13,14
+ITM 2 13,13
+ITM 2 13,12
+ITM 2 12,12
+EXT 11,12 6 11,12
+PAL 4
+
+ROOM 6
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-NAME Room of Self Acknowledgement
-EXT 1,8 0 15,8
+x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+x,x,x,x,x,x,x,x,x,x,u,u,u,u,u,a
+x,x,x,x,x,x,x,x,x,u,u,a,u,a,u,u
+x,x,x,x,x,x,x,x,u,u,a,a,a,u,a,u
+x,x,x,x,x,x,x,u,u,u,u,a,a,u,a,u
+x,x,x,x,x,x,x,u,u,u,u,u,a,u,u,u
+x,x,x,x,x,x,x,u,u,u,a,a,a,u,u,u
+x,x,x,x,x,x,x,u,u,a,a,u,u,u,u,u
+x,x,x,x,x,u,u,u,a,u,u,u,u,u,u,u
+x,x,x,x,a,u,a,u,u,a,a,a,a,u,a,u
+x,x,a,a,u,a,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 2
+ITM 1 8,8
+EXT 8,8 7 8,8
+PAL 5
+
+ROOM 7
+x,x,x,x,x,x,x,x,x,a,u,a,x,x,x,x
+x,x,x,x,x,x,x,x,a,a,u,a,x,x,x,x
+x,x,x,x,x,x,x,x,a,u,u,a,x,x,x,x
+x,x,x,x,x,x,x,x,x,u,a,a,x,x,x,x
+x,x,x,x,x,x,x,x,x,u,a,u,u,u,u,a
+x,x,x,x,x,x,x,a,a,u,a,a,u,u,u,a
+x,x,x,x,x,x,x,u,u,u,u,u,u,u,u,a
+x,x,x,x,x,x,a,u,u,u,u,a,u,a,u,u
+x,x,x,x,x,x,u,u,u,u,a,a,a,u,a,u
+x,x,x,x,x,u,u,u,u,u,u,a,a,u,a,u
+x,x,x,x,x,u,u,u,u,u,u,u,a,u,u,u
+x,x,x,x,x,x,x,u,u,u,a,a,a,u,u,u
+x,x,x,x,x,x,x,u,u,a,a,u,u,u,u,u
+x,x,x,x,x,x,u,u,a,u,u,u,u,u,u,u
+x,x,x,x,x,x,a,u,u,a,a,a,a,u,a,u
+x,x,x,x,x,x,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 3
+ITM 1 14,4
+EXT 14,4 9 14,4
+PAL 5
+
+ROOM 8
+e,u,u,u,u,u,u,u,u,a,u,a,u,a,u,u
+u,u,u,u,a,u,u,u,a,a,u,a,u,u,a,u
+a,a,u,u,a,a,a,u,a,u,u,a,u,u,u,u
+u,a,u,u,u,a,u,u,u,u,a,a,u,u,a,a
+u,a,a,a,a,a,a,u,u,u,a,u,u,u,u,a
+u,u,u,u,a,u,u,a,a,u,a,a,u,u,u,a
+a,u,u,u,a,u,u,u,u,u,u,u,u,u,u,a
+u,u,u,a,u,a,a,u,u,u,u,a,u,a,u,u
+u,u,a,a,u,u,u,u,u,u,a,a,a,u,a,u
+u,a,u,u,u,u,u,u,u,u,u,a,a,u,a,u
+u,u,a,u,u,u,u,u,u,u,u,u,a,u,u,u
+u,u,a,a,a,a,a,u,u,u,a,a,a,u,u,u
+u,u,u,u,u,u,a,u,u,a,a,u,u,u,u,u
+u,u,u,a,u,u,u,u,a,u,u,u,u,u,u,u
+u,u,u,a,a,u,a,u,u,a,a,a,a,u,a,u
+a,a,a,a,u,a,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 4
+ITM 3 2,1
+EXT 0,0 c 8,14 DLG l
+PAL 5
+
+ROOM 9
+x,x,x,x,x,x,x,x,x,a,u,a,u,a,u,u
+x,x,x,x,x,x,x,x,a,a,u,a,u,u,a,u
+x,x,x,x,x,x,x,x,a,u,u,a,u,u,u,u
+x,x,x,x,x,x,x,x,x,u,a,a,u,u,a,a
+x,x,x,x,x,x,x,x,x,u,a,u,u,u,u,a
+x,x,x,x,x,x,x,a,a,u,a,a,u,u,u,a
+x,x,x,x,x,x,x,u,u,u,u,u,u,u,u,a
+x,x,x,x,x,x,a,u,u,u,u,a,u,a,u,u
+x,x,x,x,x,x,u,u,u,u,a,a,a,u,a,u
+x,x,x,x,x,u,u,u,u,u,u,a,a,u,a,u
+x,x,x,x,x,u,u,u,u,u,u,u,a,u,u,u
+x,x,x,x,x,x,x,u,u,u,a,a,a,u,u,u
+x,x,x,x,x,x,x,u,u,a,a,u,u,u,u,u
+x,x,x,x,x,x,u,u,a,u,u,u,u,u,u,u
+x,x,x,x,x,x,a,u,u,a,a,a,a,u,a,u
+x,x,x,x,x,x,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 5
+ITM 1 6,13
+EXT 6,13 a 6,13
+PAL 5
+
+ROOM a
+x,x,x,x,x,x,x,x,x,a,u,a,u,a,u,u
+x,x,x,x,x,x,x,x,a,a,u,a,u,u,a,u
+x,x,x,x,x,x,x,x,a,u,u,a,u,u,u,u
+x,x,x,x,x,x,x,x,x,u,a,a,u,u,a,a
+x,x,x,x,x,x,x,x,x,u,a,u,u,u,u,a
+x,x,x,x,x,x,x,a,a,u,a,a,u,u,u,a
+a,u,u,u,a,x,x,u,u,u,u,u,u,u,u,a
+u,u,u,a,x,x,a,u,u,u,u,a,u,a,u,u
+u,u,a,a,x,x,u,u,u,u,a,a,a,u,a,u
+u,a,x,x,x,u,u,u,u,u,u,a,a,u,a,u
+u,u,a,x,x,u,u,u,u,u,u,u,a,u,u,u
+u,u,a,a,a,a,a,u,u,u,a,a,a,u,u,u
+u,u,u,u,u,u,a,u,u,a,a,u,u,u,u,u
+u,u,u,a,u,u,u,u,a,u,u,u,u,u,u,u
+u,u,u,a,a,u,a,u,u,a,a,a,a,u,a,u
+a,a,a,a,0,a,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 6
+ITM 1 3,6
+EXT 3,6 b 3,6
+PAL 5
+
+ROOM b
+x,x,x,x,x,x,x,x,x,a,u,a,u,a,u,u
+x,x,x,x,x,x,x,x,a,a,u,a,u,u,a,u
+a,a,x,x,x,x,x,x,a,u,u,a,u,u,u,u
+u,a,x,x,x,x,x,x,x,u,a,a,u,u,a,a
+u,a,a,a,a,a,a,x,x,u,a,u,u,u,u,a
+u,u,u,u,a,u,u,a,a,u,a,a,u,u,u,a
+a,u,u,u,a,u,u,u,u,u,u,u,u,u,u,a
+u,u,u,a,u,a,a,u,u,u,u,a,u,a,u,u
+u,u,a,a,u,u,u,u,u,u,a,a,a,u,a,u
+u,a,u,u,u,u,u,u,u,u,u,a,a,u,a,u
+u,u,a,u,u,u,u,u,u,u,u,u,a,u,u,u
+u,u,a,a,a,a,a,u,u,u,a,a,a,u,u,u
+u,u,u,u,u,u,a,u,u,a,a,u,u,u,u,u
+u,u,u,a,u,u,u,u,a,u,u,u,u,u,u,u
+u,u,u,a,a,u,a,u,u,a,a,a,a,u,a,u
+a,a,a,a,0,a,a,u,a,u,u,u,u,u,a,a
+NAME Dark Sovereigns 7
+ITM 1 9,4
+EXT 9,4 8 9,4
+PAL 5
+
+ROOM c
+y,y,y,y,y,y,s,s,s,s,s,s,y,y,y,y
+y,y,y,y,y,s,i,0,0,0,0,i,s,y,y,y
+y,y,y,y,s,0,0,0,0,0,0,0,0,s,y,y
+y,y,y,s,0,0,0,0,0,0,0,0,0,0,s,y
+y,y,y,y,s,0,0,i,0,0,i,0,0,s,y,y
+y,y,y,y,0,s,0,0,0,0,0,0,s,y,y,y
+y,y,y,y,y,0,s,0,0,0,0,s,0,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+y,y,y,y,y,o,n,n,n,n,n,n,o,y,y,y
+NAME Ending 1
 PAL 0
 
 TIL a
 00111100
-10000001
+11000011
 10011001
-10100101
-10100101
+10111101
+10111101
 10011001
-00000000
+01000010
 00111100
 NAME block
 WAL true
@@ -145,17 +348,6 @@ TIL b
 00011000
 10000001
 WAL false
-
-TIL c
-11111111
-10000001
-10000001
-10000001
-10000001
-10000001
-10000001
-11111111
-NAME floor
 
 TIL d
 00011000
@@ -189,6 +381,253 @@ TIL e
 NAME exit tile
 WAL false
 
+TIL f
+00011000
+00111100
+01111110
+01111110
+00011000
+00011000
+00011000
+00011000
+>
+00111100
+01111110
+01111110
+00111100
+00011000
+00011000
+00011000
+00011000
+NAME mushroom
+
+TIL g
+00001000
+01010010
+10010100
+10100100
+01000010
+10001100
+10010100
+00010000
+>
+00010000
+10001100
+01001010
+01010010
+10000100
+01010010
+01001010
+00001000
+NAME grass
+
+TIL h
+00000000
+00000000
+00001100
+00111100
+01111110
+11111111
+11111111
+11111111
+NAME rock
+WAL true
+
+TIL i
+00000000
+00000000
+00000000
+01000010
+01111110
+00111100
+00011000
+00111100
+>
+10110011
+11100110
+00111100
+01111110
+01111110
+00111100
+00011000
+00111100
+NAME fire
+
+TIL j
+00000000
+00001001
+00100000
+00000000
+10000100
+00000000
+00100100
+00000000
+NAME dots
+WAL true
+
+TIL m
+01010101
+01010101
+01010101
+01010101
+01010101
+01010101
+01010101
+01010101
+NAME fence
+WAL true
+
+TIL n
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+NAME stairs
+
+TIL o
+00011000
+00011000
+00011000
+00011000
+00011000
+00011000
+00011000
+00011000
+NAME line
+WAL true
+
+TIL p
+00000000
+00110000
+00110000
+00001000
+00000100
+10000001
+10000001
+11111111
+NAME switch
+WAL true
+
+TIL q
+00000000
+00001100
+00001100
+00010000
+00100000
+10000001
+10000001
+11111111
+NAME switch 2
+WAL true
+
+TIL r
+00000000
+01111111
+11111111
+11111111
+11111111
+01111111
+00000000
+00000000
+
+TIL s
+00000000
+00101000
+00111000
+00011000
+00011100
+00011100
+00111110
+11111111
+>
+00000000
+00000000
+00000111
+00011111
+00011110
+00111110
+01111111
+01111111
+NAME lava
+WAL true
+
+TIL t
+00000000
+00000000
+00000000
+00000000
+00010000
+01001000
+00000000
+01010000
+NAME rock dots
+
+TIL u
+10000001
+01000010
+00100100
+00011000
+00011000
+00100100
+01000010
+10000001
+NAME web
+
+TIL v
+01111110
+10111101
+10100101
+10100101
+10100101
+10100101
+10100101
+01111110
+>
+01111110
+10111101
+10100101
+10100101
+10000001
+10000001
+10000001
+01111110
+
+TIL w
+00000000
+00000000
+00000000
+00000000
+00000000
+00011000
+00011000
+00000000
+
+TIL x
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME inviz
+WAL true
+
+TIL y
+00000000
+00000000
+00000000
+00011000
+00111100
+00111100
+01111110
+11111111
+
 SPR A
 10100000
 11010000
@@ -207,7 +646,7 @@ SPR A
 01101110
 01000101
 11000010
-POS 0 4,4
+POS 0 5,2
 
 SPR a
 11000000
@@ -227,9 +666,9 @@ SPR a
 00111111
 00011110
 00100100
-NAME cat
+NAME giraffe
 DLG 0
-POS 0 10,10
+POS 0 6,7
 
 SPR b
 00011000
@@ -251,17 +690,342 @@ SPR b
 10000001
 NAME portal
 DLG 4
-POS 0 2,3
+POS 0 3,1
 
 SPR c
 00000000
 00000000
 00000000
+00111110
+01111111
+11111111
+11111111
+01100110
+>
+01000101
+00101010
+11010100
+11111110
+00111110
+01111111
+11111111
+10001101
+NAME fan
+DLG 8
+POS 0 13,13
+
+SPR d
+01000010
+01111110
+10111111
+11111111
+11111101
+11011101
+10111110
+00100010
+>
+01100001
+01111111
+11100011
+11111111
+11111101
+11111101
+00011100
+00100010
+NAME serpentKnight
+DLG 9
+POS c 9,3
+
+SPR e
+11100111
+11000011
+01111110
+00100100
+01111110
+01111110
+01111110
+11111111
+>
+11100111
+11111111
+01111110
+00100100
+01111110
+01111110
+11111111
+00111100
+NAME samurai
+DLG c
+POS 1 8,4
+
+SPR f
+11111111
+11111111
+11110111
+11100011
+11000001
+11100011
+11101011
+11111111
+>
+10111101
+11110111
+11100011
+11000001
+11100011
+11101011
+11111111
+11111111
+NAME kid
+POS 0 12,1
+
+SPR g
 00000000
 00000000
 00000000
 00000000
 00000000
+00000000
+00000000
+00000000
+NAME enemy
+
+SPR h
+00000000
+00011000
+00111100
+01111110
+01111110
+01111110
+00111110
+00110100
+>
+10000000
+11011000
+01111100
+11111110
+11111110
+01111110
+00111110
+00110100
+NAME hedgehog
+DLG a
+POS 1 6,10
+
+SPR i
+11100111
+11000011
+01111110
+00100100
+01111110
+01111110
+01111110
+11111111
+>
+11100111
+11000011
+01111110
+00100100
+01111110
+01111110
+11111111
+01111110
+DLG f
+POS 2 8,4
+
+SPR j
+00000000
+00011000
+00111100
+01111110
+01111110
+01111110
+00111110
+00110100
+>
+10000000
+11011000
+01111100
+11111110
+11111110
+01111110
+00111110
+00110100
+DLG g
+POS 2 6,10
+
+SPR l
+10000001
+01011010
+00111100
+00111100
+01111110
+00111100
+01011010
+10000001
+>
+00000000
+01011010
+10111101
+00111100
+01111110
+10111101
+01011010
+10000001
+NAME Spider Mom
+DLG i
+POS 9 15,0
+
+SPR m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR p
+10000001
+01011010
+00111100
+00111100
+01111110
+00111100
+01011010
+10000001
+>
+00000000
+01011010
+10111101
+00111100
+01111110
+10111101
+01011010
+10000001
+NAME Spider Mom 2
+DLG n
+POS a 15,0
+
+SPR q
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR r
+10000001
+01011010
+00111100
+00111100
+01111110
+00111100
+01011010
+10000001
+>
+00000000
+01011010
+10111101
+00111100
+01111110
+10111101
+01011010
+10000001
+NAME Spider Mom 3
+DLG m
+POS b 15,0
+
+SPR s
+10000001
+01011010
+00111100
+00111100
+01111110
+00111100
+01011010
+10000001
+>
+00000000
+01011010
+10111101
+00111100
+01111110
+10111101
+01011010
+10000001
+NAME Spider Mom 4
+DLG k
+POS 8 15,0
+
+SPR t
+00000000
+01000010
+00111100
+00011000
+00011000
+00111100
+01000010
+00000000
+NAME Spider kid
+DLG o
+
+SPR u
+11111111
+11111111
+11110111
+11100011
+11000001
+11100011
+11101011
+11111111
+>
+10111101
+11110111
+11100011
+11000001
+11100011
+11101011
+11111111
+11111111
+NAME kid 2
+DLG q
+POS c 7,2
+
+SPR v
+00011100
+01111100
+11111110
+11111111
+10111110
+01111100
+01111110
+01111110
+NAME Master
 
 ITM 0
 00000000
@@ -276,28 +1040,72 @@ NAME Bio-device
 DLG 1
 
 ITM 1
+00000100
+00000100
+00011100
+00010000
 00000000
+00011100
+00011100
+00011000
+>
+00010000
+00011000
+00000100
+00011100
+00000000
+00011100
+00011100
+00011000
+NAME torch
+
+ITM 2
+00000000
+00000000
+00000000
+00000000
+00011000
+00011000
+00000000
+00000000
+
+ITM 3
+00000000
+01000010
+00111100
+00011000
 00111100
 00100100
-00111100
-00010000
-00011000
-00010000
-00011000
-NAME key
-DLG 2
+01000010
+00000000
+NAME Spider kid
+DLG j
+
+ITM 4
+00100000
+01101100
+11011110
+01011011
+01001010
+01111010
+00101110
+00000000
+NAME Biomerge material
 
 DLG 0
-Are you listening? If so, pick up this device.
+"""
+{
+  - {item "0"} == 1 ?
+    I see. Be ready to face your own {clr2} judgement. {clr2}
+  - else ?
+    Are you listening? If so, pick up this device.
+}
+"""
 NAME cat dialog
 
 DLG 1
 
 NAME tea dialog
-
-DLG 2
-A key! {wvy}What does it open?{wvy}
-NAME key dialog
 
 DLG 3
 
@@ -311,9 +1119,9 @@ DLG 5
 """
 {
   - {item "0"} == 1 ?
-    {property locked false}The key opens the door!
+    {property locked false}You now have enough faith to enter.
   - else ?
-    {property locked true}The door is locked...
+    {property locked true}Clearly...it's locked.
 }
 """
 NAME locked exit 1
@@ -335,8 +1143,119 @@ DLG 7
 """
 NAME locked exit 2
 
+DLG 8
+I'm rooting for you!
+NAME fan dialog
+
+DLG 9
+This is it. You finally arrived. What do you think? Were you obedient enough? Did you actually want to go through all this? "Pick up this device".  "Press the switch". "Help me search for my kid". You are a fine servant. So I'd like to ask for one more thing. {rbw}BIOMERGE WITH THIS KID!{rbw}{item "4" 1}
+NAME master dialog
+
+DLG a
+Did you see that kid ( {printSprite "f"} ) in the Rebirth Room? It seemed so {clr2}happy.{clr2} That's why I'm still standing here, we must put an end to this cruelty.
+NAME hedgehog dialog
+
+DLG c
+{switch = "false"}The Dark Sovereigns want to alternate history.{clr2} Our past is in their hands. {clr2}So tell me... Are you willing to just stand here like the other fool or fight for your precious memories? I can see it in your eyes. Go ahead and press the switch. ( {printTile "p"} )
+NAME samurai dialog
+
+DLG d
+{property locked true}{property locked switch}
+NAME exit dialog 1
+
+DLG e
+ 
+
+DLG f
+This behavior is more likely from a dragon.
+NAME sprite i dialog
+
+DLG g
+Why? I though you were different from them...
+NAME sprite j dialog
+
+DLG h
+
+NAME exit dialog 2
+
+DLG i
+"""
+{
+  - {item "3"} == 1 ?
+
+  - else ?
+    Kind dragon...I've lost{clr3} my kid{clr3} ( {printItem "3"} ). Can you please help me search for it? I'll wait here.
+}
+"""
+NAME sprite l dialog
+
+DLG j
+You take the spider kid under your wings.
+NAME Spider kid dialog
+
+DLG k
+"""
+{
+  - {item "3"} == 1 ?
+    You found it, I'm so relieved! Go now, the master is waiting for you.{kid = "false"}
+  - else ?
+    Kind dragon...I've lost{clr3} my kid{clr3} ( {printItem "3"} ). Can you please help me search for it? I'll wait here.
+}
+"""
+NAME Spider Mom 4 dialog
+
+DLG l
+{property locked kid}
+NAME locked exit 3
+
+DLG m
+"""
+{
+  - {item "3"} == 1 ?
+
+  - else ?
+    Kind dragon...I've lost{clr3} my kid{clr3} ( {printItem "3"} ). Can you please help me search for it? I'll wait here.
+}
+"""
+NAME Spider Mom 3 dialog
+
+DLG n
+"""
+{
+  - {item "3"} == 1 ?
+
+  - else ?
+    Kind dragon...I've lost{clr3} my kid{clr3} ( {printItem "3"} ). Can you please help me search for it? I'll wait here.
+}
+"""
+NAME Spider Mom 2 dialog
+
+DLG o
+
+NAME Spider kid dialog 1
+
+DLG q
+"""
+{
+  - {item "4"} == 1 ?
+    {end}Determined and biomerged, you go to the front lines against The Dark Sovereigns. Will you succeed in saving the past?
+  - else ?
+    Hope I won't disappoint you.
+}
+"""
+NAME kid 2 dialog
+
 VAR a
 42
+
+VAR switch
+true
+
+VAR kid
+true
+
+VAR end
+true
 
 
 </script>
@@ -9424,6 +10343,1785 @@ CHAR 255
 010010
 000000
 000000
+</script>
+
+<script>
+
+	/**
+	📜
+	@file long dialog
+	@summary put more words onscreen
+	@license MIT
+	@author Sean S. LeBlanc
+	@version 20.2.3
+	@requires Bitsy 7.12
+	
+	
+	@description
+	Makes the dialog box variable in height, allowing it to expand as needed.
+	
+	Minimum and maximum size are configurable.
+	Cheat sheet:
+		2: bitsy default
+		8: reaches just below the halfway mark
+		16: roughly the max of the original bitsy margins
+		19: max before cutting off text
+	
+	Note: this hack also includes the paragraph break hack
+	A common pattern in bitsy is using intentional whitespace to force new dialog pages,
+	but the long dialog hack makes that look awkward since the text box expands.
+	The paragraph break hack lets you get around this by using a (p) tag to immediately end the current page.
+	
+	There is also a dialog tag that lets you change the size ingame.
+	
+	Usage:
+		(textboxsize "<min>,<max>")
+		(textboxsizeNow "<min>,<max>")
+	
+	Examples:
+		(textboxsize "2,6")
+		(textboxsizeNow "2,2")
+	
+	HOW TO USE:
+		1. Copy-paste this script into a new script tag after the Bitsy source code.
+		2. edit hackOptions below as needed
+	*/
+	this.hacks = this.hacks || {};
+	(function (exports, bitsy) {
+		'use strict';
+		var hackOptions = {
+			minRows: 3,
+			maxRows: 4,
+		};
+
+		function _interopDefaultLegacy(e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+		bitsy = bitsy || /*#__PURE__*/_interopDefaultLegacy(bitsy);
+
+		/**
+		 * Helper used to replace code in a script tag based on a search regex.
+		 * To inject code without erasing original string, using capturing groups; e.g.
+		 * ```js
+		 * inject(/(some string)/,'injected before $1 injected after');
+		 * ```
+		 * @param searcher Regex to search and replace
+		 * @param replacer Replacer string/fn
+		 */
+		function inject$1(searcher, replacer) {
+			// find the relevant script tag
+			var scriptTags = document.getElementsByTagName('script');
+			var scriptTag;
+			var code = '';
+			for (var i = 0; i < scriptTags.length; ++i) {
+				scriptTag = scriptTags[i];
+				if (!scriptTag.textContent)
+					continue;
+				var matchesSearch = scriptTag.textContent.search(searcher) !== -1;
+				var isCurrentScript = scriptTag === document.currentScript;
+				if (matchesSearch && !isCurrentScript) {
+					code = scriptTag.textContent;
+					break;
+				}
+			}
+			// error-handling
+			if (!code || !scriptTag) {
+				throw new Error('Couldn\'t find "' + searcher + '" in script tags');
+			}
+			// modify the content
+			code = code.replace(searcher, replacer);
+			// replace the old script tag with a new one using our modified code
+			var newScriptTag = document.createElement('script');
+			newScriptTag.textContent = code;
+			scriptTag.insertAdjacentElement('afterend', newScriptTag);
+			scriptTag.remove();
+		}
+		/**
+		 * Helper for getting an array with unique elements
+		 * @param  {Array} array Original array
+		 * @return {Array}       Copy of array, excluding duplicates
+		 */
+		function unique(array) {
+			return array.filter(function (item, idx) {
+				return array.indexOf(item) === idx;
+			});
+		}
+		// Ex: inject(/(names.sprite.set\( name, id \);)/, '$1console.dir(names)');
+		/** test */
+		function kitsyInject(searcher, replacer) {
+			if (!kitsy.queuedInjectScripts.some(function (script) {
+				return searcher.toString() === script.searcher.toString() && replacer === script.replacer;
+			})) {
+				kitsy.queuedInjectScripts.push({
+					searcher: searcher,
+					replacer: replacer,
+				});
+			}
+			else {
+				console.warn('Ignored duplicate inject');
+			}
+		}
+		// Ex: before('load_game', function run() { alert('Loading!'); });
+		//     before('show_text', function run(text) { return text.toUpperCase(); });
+		//     before('show_text', function run(text, done) { done(text.toUpperCase()); });
+		function before$1(targetFuncName, beforeFn) {
+			kitsy.queuedBeforeScripts[targetFuncName] = kitsy.queuedBeforeScripts[targetFuncName] || [];
+			kitsy.queuedBeforeScripts[targetFuncName].push(beforeFn);
+		}
+		// Ex: after('load_game', function run() { alert('Loaded!'); });
+		function after$1(targetFuncName, afterFn) {
+			kitsy.queuedAfterScripts[targetFuncName] = kitsy.queuedAfterScripts[targetFuncName] || [];
+			kitsy.queuedAfterScripts[targetFuncName].push(afterFn);
+		}
+		function applyInjects() {
+			kitsy.queuedInjectScripts.forEach(function (injectScript) {
+				inject$1(injectScript.searcher, injectScript.replacer);
+			});
+		}
+		function applyHooks(root) {
+			var allHooks = unique(Object.keys(kitsy.queuedBeforeScripts).concat(Object.keys(kitsy.queuedAfterScripts)));
+			allHooks.forEach(applyHook.bind(this, root || window));
+		}
+		function applyHook(root, functionName) {
+			var functionNameSegments = functionName.split('.');
+			var obj = root;
+			while (functionNameSegments.length > 1) {
+				obj = obj[functionNameSegments.shift()];
+			}
+			var lastSegment = functionNameSegments[0];
+			var superFn = obj[lastSegment];
+			var superFnLength = superFn ? superFn.length : 0;
+			var functions = [];
+			// start with befores
+			functions = functions.concat(kitsy.queuedBeforeScripts[functionName] || []);
+			// then original
+			if (superFn) {
+				functions.push(superFn);
+			}
+			// then afters
+			functions = functions.concat(kitsy.queuedAfterScripts[functionName] || []);
+			// overwrite original with one which will call each in order
+			obj[lastSegment] = function () {
+				var returnVal;
+				var args = [].slice.call(arguments);
+				var i = 0;
+				function runBefore() {
+					// All outta functions? Finish
+					if (i === functions.length) {
+						return returnVal;
+					}
+					// Update args if provided.
+					if (arguments.length > 0) {
+						args = [].slice.call(arguments);
+					}
+					if (functions[i].length > superFnLength) {
+						// Assume funcs that accept more args than the original are
+						// async and accept a callback as an additional argument.
+						return functions[i++].apply(this, args.concat(runBefore.bind(this)));
+					}
+					// run synchronously
+					returnVal = functions[i++].apply(this, args);
+					if (returnVal && returnVal.length) {
+						args = returnVal;
+					}
+					return runBefore.apply(this, args);
+				}
+				return runBefore.apply(this, arguments);
+			};
+		}
+		/**
+		@file kitsy-script-toolkit
+		@summary Monkey-patching toolkit to make it easier and cleaner to run code before and after functions or to inject new code into script tags
+		@license WTFPL (do WTF you want)
+		@author Original by mildmojo; modified by Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+		var kitsy = (window.kitsy = window.kitsy || {
+			queuedInjectScripts: [],
+			queuedBeforeScripts: {},
+			queuedAfterScripts: {},
+			inject: kitsyInject,
+			before: before$1,
+			after: after$1,
+			/**
+			 * Applies all queued `inject` calls.
+			 *
+			 * An object that instantiates an class modified via injection will still refer to the original class,
+			 * so make sure to reinitialize globals that refer to injected scripts before calling `applyHooks`.
+			 */
+			applyInjects,
+			/** Apples all queued `before`/`after` calls. */
+			applyHooks,
+		});
+
+		var hooked = kitsy.hooked;
+		if (!hooked) {
+			kitsy.hooked = true;
+			var oldStartFunc = bitsy.startExportedGame;
+			bitsy.startExportedGame = function doAllInjections() {
+				// Only do this once.
+				bitsy.startExportedGame = oldStartFunc;
+
+				// Rewrite scripts
+				kitsy.applyInjects();
+
+				// recreate the script and dialog objects so that they'll be
+				// referencing the code with injections instead of the original
+				bitsy.scriptModule = new bitsy.Script();
+				bitsy.scriptInterpreter = bitsy.scriptModule.CreateInterpreter();
+
+				bitsy.dialogModule = new bitsy.Dialog();
+				bitsy.dialogRenderer = bitsy.dialogModule.CreateRenderer();
+				bitsy.dialogBuffer = bitsy.dialogModule.CreateBuffer();
+				bitsy.renderer = new bitsy.TileRenderer(bitsy.tilesize);
+				bitsy.transition = new bitsy.TransitionManager();
+
+				// Hook everything
+				kitsy.applyHooks();
+
+				// reset callbacks using hacked functions
+				bitsy.bitsyOnUpdate(bitsy.update);
+				bitsy.bitsyOnQuit(bitsy.stopGame);
+				bitsy.bitsyOnLoad(bitsy.load_game);
+
+				// Start the game
+				bitsy.startExportedGame.apply(this, arguments);
+			};
+		}
+
+		/** @see kitsy.inject */
+		var inject = kitsy.inject;
+		/** @see kitsy.before */
+		var before = kitsy.before;
+		/** @see kitsy.after */
+		var after = kitsy.after;
+
+		// Rewrite custom functions' parentheses to curly braces for Bitsy's
+		// interpreter. Unescape escaped parentheticals, too.
+		function convertDialogTags(input, tag) {
+			return input.replace(new RegExp('\\\\?\\((' + tag + '(\\s+(".*?"|.+?))?)\\\\?\\)', 'g'), function (match, group) {
+				if (match.substr(0, 1) === '\\') {
+					return '(' + group + ')'; // Rewrite \(tag "..."|...\) to (tag "..."|...)
+				}
+				return '{' + group + '}'; // Rewrite (tag "..."|...) to {tag "..."|...}
+			});
+		}
+
+		function addDialogFunction(tag, fn) {
+			kitsy.dialogFunctions = kitsy.dialogFunctions || {};
+			if (kitsy.dialogFunctions[tag]) {
+				console.warn('The dialog function "' + tag + '" already exists.');
+				return;
+			}
+
+			// Hook into game load and rewrite custom functions in game data to Bitsy format.
+			before('parseWorld', function (gameData) {
+				return [convertDialogTags(gameData, tag)];
+			});
+
+			kitsy.dialogFunctions[tag] = fn;
+		}
+
+		function injectDialogTag(tag, code) {
+			inject(/(var functionMap = \{\};[^]*?)(this.HasFunction)/m, '$1\nfunctionMap["' + tag + '"] = ' + code + ';\n$2');
+		}
+
+		/**
+		 * Adds a custom dialog tag which executes the provided function.
+		 * For ease-of-use with the bitsy editor, tags can be written as
+		 * (tagname "parameters") in addition to the standard {tagname "parameters"}
+		 *
+		 * Function is executed immediately when the tag is reached.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters, onReturn){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 *                       onReturn: function to call with return value (just call `onReturn(null);` at the end of your function if your tag doesn't interact with the logic system)
+		 */
+		function addDialogTag(tag, fn) {
+			addDialogFunction(tag, fn);
+			injectDialogTag(tag, 'kitsy.dialogFunctions["' + tag + '"]');
+		}
+
+		/**
+		 * Adds a custom dialog tag which executes the provided function.
+		 * For ease-of-use with the bitsy editor, tags can be written as
+		 * (tagname "parameters") in addition to the standard {tagname "parameters"}
+		 *
+		 * Function is executed after the dialog box.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 */
+		function addDeferredDialogTag(tag, fn) {
+			addDialogFunction(tag, fn);
+			bitsy.kitsy.deferredDialogFunctions = bitsy.kitsy.deferredDialogFunctions || {};
+			var deferred = (bitsy.kitsy.deferredDialogFunctions[tag] = []);
+			injectDialogTag(tag, 'function(e, p, o){ kitsy.deferredDialogFunctions["' + tag + '"].push({e:e,p:p}); o(null); }');
+			// Hook into the dialog finish event and execute the actual function
+			after('onExitDialog', function () {
+				while (deferred.length) {
+					var args = deferred.shift();
+					bitsy.kitsy.dialogFunctions[tag](args.e, args.p, args.o);
+				}
+			});
+			// Hook into the game reset and make sure data gets cleared
+			after('clearGameData', function () {
+				deferred.length = 0;
+			});
+		}
+
+		/**
+		 * Adds two custom dialog tags which execute the provided function,
+		 * one with the provided tagname executed after the dialog box,
+		 * and one suffixed with 'Now' executed immediately when the tag is reached.
+		 *
+		 * i.e. helper for the (exit)/(exitNow) pattern.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 */
+		function addDualDialogTag(tag, fn) {
+			addDialogTag(tag + 'Now', function (environment, parameters, onReturn) {
+				var result = fn(environment, parameters);
+				onReturn(result === undefined ? null : result);
+			});
+			addDeferredDialogTag(tag, fn);
+		}
+
+		/**
+		 * Helper for printing a paragraph break inside of a dialog function.
+		 * Adds the function `AddParagraphBreak` to `DialogBuffer`
+		 */
+
+		inject(/(this\.AddLinebreak = )/, 'this.AddParagraphBreak = function() { buffer.push( [[]] ); isActive = true; };\n$1');
+
+		/**
+		📃
+		@file paragraph-break
+		@summary Adds paragraph breaks to the dialogue parser
+		@license WTFPL (do WTF you want)
+		@author Sean S. LeBlanc, David Mowatt
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		
+		@description
+		Adds a (p) tag to the dialogue parser that forces the following text to
+		start on a fresh dialogue screen, eliminating the need to spend hours testing
+		line lengths or adding multiple line breaks that then have to be reviewed
+		when you make edits or change the font size.
+		
+		Note: Bitsy has a built-in implementation of paragraph-break as of 7.0;
+		before using this, you may want to check if it fulfills your needs.
+		
+		Usage: (p)
+		
+		Example: I am a cat(p)and my dialogue contains multitudes
+		
+		HOW TO USE:
+			1. Copy-paste this script into a new script tag after the Bitsy source code.
+				 It should appear *before* any other mods that handle loading your game
+				 data so it executes *after* them (last-in first-out).
+		
+		NOTE: This uses parentheses "()" instead of curly braces "{}" around function
+					calls because the Bitsy editor's fancy dialog window strips unrecognized
+					curly-brace functions from dialog text. To keep from losing data, write
+					these function calls with parentheses like the examples above.
+		
+					For full editor integration, you'd *probably* also need to paste this
+					code at the end of the editor's `bitsy.js` file. Untested.
+		*/
+
+		// Adds the actual dialogue tag. No deferred version is required.
+		addDialogTag('p', function (environment, parameters, onReturn) {
+			environment.GetDialogBuffer().AddParagraphBreak();
+			onReturn(null);
+		});
+		// End of (p) paragraph break mod
+
+
+
+
+
+		kitsy.longDialogOptions = hackOptions;
+
+		// override textbox height
+		inject(
+			/textboxInfo\.height = .+;/,
+			`Object.defineProperty(textboxInfo, 'height', {
+	get() { return textboxInfo.padding_vert + (textboxInfo.padding_vert + relativeFontHeight()) * Math.max(window.kitsy.longDialogOptions.minRows, dialogBuffer.CurPage().indexOf(dialogBuffer.CurRow())+Math.sign(dialogBuffer.CurCharCount())) + textboxInfo.arrow_height; }
+})`
+		);
+		// export textbox info
+		inject(/(var font = null;)/, 'this.textboxInfo = textboxInfo;$1');
+		before('renderDrawingBuffer', function (bufferId, buffer) {
+			if (bufferId !== bitsy.textboxBufferId) return;
+			buffer.height = bitsy.dialogRenderer.textboxInfo.height / bitsy.dialogRenderer.textboxInfo.font_scale;
+		});
+		// rewrite hard-coded row limit
+		inject(/(else if \(curRowIndex )== 0/g, '$1 < window.kitsy.longDialogOptions.maxRows - 1');
+		inject(/(if \(lastPage\.length) <= 1/, '$1 < window.kitsy.longDialogOptions.maxRows');
+
+		addDualDialogTag('textboxsize', function (environment, parameters) {
+			if (!parameters[0]) {
+				throw new Error('{textboxsize} was missing parameters! Usage: {textboxsize "minrows, maxrows"}');
+			}
+			// parse parameters
+			var params = parameters[0].split(/,\s?/);
+			var min = parseInt(params[0], 10);
+			var max = parseInt(params[1], 10);
+			hackOptions.minRows = min;
+			hackOptions.maxRows = max;
+		});
+
+		exports.hackOptions = hackOptions;
+
+		Object.defineProperty(exports, '__esModule', { value: true });
+
+	})(this.hacks.long_dialog = this.hacks.long_dialog || {}, window);
+
+
+</script>
+
+
+
+<!-- ************************************************************************************************************************************************** -->
+
+<script>
+	/**
+	😌
+	@file bitsymuse
+	@summary A variety of Bitsy sound and music handlers
+	@license MIT
+	@author David Mowatt
+	@version 20.2.3
+	@requires Bitsy 7.12
+	
+	
+	@description
+	A hack that adds a variety of audio controls, including music that changes as you move between rooms.
+	If the same song is played as you move between rooms, the audio file will continue playing.
+	
+	Check out https://kool.tools/bitsy/tools/bitsymuse-ui for a tool to help configure this hack.
+	
+	If you only want to play a single song as a background track,
+	check out https://candle.itch.io/bitsy-audio for a simpler solution.
+	
+	HOW TO USE:
+	1. Place your audio files somewhere relative to your bitsy html file (in the zip if you're uploading to itch.io)
+	2. Copy-paste this script into a script tag after the bitsy source.
+	3. Edit hackOptions below to set up the track list for rooms you move through.
+	
+	In addition to the track list, which will play audio based on the room id/name,
+	you have access to the following commands you can add to dialogue:
+	
+	1. (soundeffectNow "<audio ID>") will play a sound without interrupting the music as soon as it is called in the dialogue
+	2. (soundeffect "<audio ID>") will play a sound without interrupting the music once the dialogue box closes
+	3. (musicNow "<audio ID>") will change the music as soon as it is called in the dialogue
+	4. (music "<audio ID>") will change the music once the dialogue box closes
+	
+	You can call both musicNow and music in the same dialogue, to e.g. change the music while you speak to a character
+	and then restart the regular room music once you stop speaking to them.
+	You can also use a special ID ("S" by default) to Silence the music.
+	
+	By default, music tracks automatically restart from the beginning if you go back to a previous track.
+	This can also be changed in the hackOptions below.
+	*/
+	this.hacks = this.hacks || {};
+	(function (exports, bitsy) {
+		'use strict';
+		var hackOptions = {
+			// Put entries in this list for each audio file you want to use
+			// the key will be the id needed to play it in dialog tags and the musicByRoom options below,
+			// and the value will be the properties of the corresponding <audio> tag (e.g. src, loop, volume)
+			// `src` can be either a string, or an array of strings (to support fallbacks in different formats)
+			// Note: you can add <audio> tags to the html manually if you prefer
+			audio: {
+				// Note: the entries below are examples that should be removed and replaced with your own audio files
+				'room0': { src: './blighted_ground.ogg', loop: true },
+				'room1': { src: './twisted_forest.ogg', loop: true },
+				'room2': { src: './spider_nest.ogg', loop: true },
+				'room3': { src: './what_once_was.ogg', loop: true },
+			},
+			// Put entries in this list for every room ID or name that will change the music
+			// If the player moves between rooms with the same audio ID, the music keeps playing seamlessly.
+			// Undefined rooms will keep playing whatever music they were last playing
+			musicByRoom: {
+				// Note: the entries below are examples that should be removed and replaced with your own room -> audio id mappings
+				0: 'room0',
+				1: 'room1',
+				2: 'room1',
+				3: 'room1',
+				4: 'room2',
+				5: 'room2',
+				6: 'room2',
+				7: 'room2',
+				8: 'room2',
+				9: 'room2',
+				10: 'room3',
+				'Ending 1': 'room3',
+			},
+			silenceId: 'S', // Use this song ID to make a room fall silent.
+			resume: false, // If true, songs will pause/resume on change; otherwise, they'll stop/play (doesn't affect sound effects)
+		};
+
+		function _interopDefaultLegacy(e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+		bitsy = bitsy || /*#__PURE__*/_interopDefaultLegacy(bitsy);
+
+		/**
+		 * Helper used to replace code in a script tag based on a search regex.
+		 * To inject code without erasing original string, using capturing groups; e.g.
+		 * ```js
+		 * inject(/(some string)/,'injected before $1 injected after');
+		 * ```
+		 * @param searcher Regex to search and replace
+		 * @param replacer Replacer string/fn
+		 */
+		function inject$1(searcher, replacer) {
+			// find the relevant script tag
+			var scriptTags = document.getElementsByTagName('script');
+			var scriptTag;
+			var code = '';
+			for (var i = 0; i < scriptTags.length; ++i) {
+				scriptTag = scriptTags[i];
+				if (!scriptTag.textContent)
+					continue;
+				var matchesSearch = scriptTag.textContent.search(searcher) !== -1;
+				var isCurrentScript = scriptTag === document.currentScript;
+				if (matchesSearch && !isCurrentScript) {
+					code = scriptTag.textContent;
+					break;
+				}
+			}
+			// error-handling
+			if (!code || !scriptTag) {
+				throw new Error('Couldn\'t find "' + searcher + '" in script tags');
+			}
+			// modify the content
+			code = code.replace(searcher, replacer);
+			// replace the old script tag with a new one using our modified code
+			var newScriptTag = document.createElement('script');
+			newScriptTag.textContent = code;
+			scriptTag.insertAdjacentElement('afterend', newScriptTag);
+			scriptTag.remove();
+		}
+		/**
+		 * Helper for getting an array with unique elements
+		 * @param  {Array} array Original array
+		 * @return {Array}       Copy of array, excluding duplicates
+		 */
+		function unique(array) {
+			return array.filter(function (item, idx) {
+				return array.indexOf(item) === idx;
+			});
+		}
+		// Ex: inject(/(names.sprite.set\( name, id \);)/, '$1console.dir(names)');
+		/** test */
+		function kitsyInject(searcher, replacer) {
+			if (!kitsy.queuedInjectScripts.some(function (script) {
+				return searcher.toString() === script.searcher.toString() && replacer === script.replacer;
+			})) {
+				kitsy.queuedInjectScripts.push({
+					searcher: searcher,
+					replacer: replacer,
+				});
+			}
+			else {
+				console.warn('Ignored duplicate inject');
+			}
+		}
+		// Ex: before('load_game', function run() { alert('Loading!'); });
+		//     before('show_text', function run(text) { return text.toUpperCase(); });
+		//     before('show_text', function run(text, done) { done(text.toUpperCase()); });
+		function before$1(targetFuncName, beforeFn) {
+			kitsy.queuedBeforeScripts[targetFuncName] = kitsy.queuedBeforeScripts[targetFuncName] || [];
+			kitsy.queuedBeforeScripts[targetFuncName].push(beforeFn);
+		}
+		// Ex: after('load_game', function run() { alert('Loaded!'); });
+		function after$1(targetFuncName, afterFn) {
+			kitsy.queuedAfterScripts[targetFuncName] = kitsy.queuedAfterScripts[targetFuncName] || [];
+			kitsy.queuedAfterScripts[targetFuncName].push(afterFn);
+		}
+		function applyInjects() {
+			kitsy.queuedInjectScripts.forEach(function (injectScript) {
+				inject$1(injectScript.searcher, injectScript.replacer);
+			});
+		}
+		function applyHooks(root) {
+			var allHooks = unique(Object.keys(kitsy.queuedBeforeScripts).concat(Object.keys(kitsy.queuedAfterScripts)));
+			allHooks.forEach(applyHook.bind(this, root || window));
+		}
+		function applyHook(root, functionName) {
+			var functionNameSegments = functionName.split('.');
+			var obj = root;
+			while (functionNameSegments.length > 1) {
+				obj = obj[functionNameSegments.shift()];
+			}
+			var lastSegment = functionNameSegments[0];
+			var superFn = obj[lastSegment];
+			var superFnLength = superFn ? superFn.length : 0;
+			var functions = [];
+			// start with befores
+			functions = functions.concat(kitsy.queuedBeforeScripts[functionName] || []);
+			// then original
+			if (superFn) {
+				functions.push(superFn);
+			}
+			// then afters
+			functions = functions.concat(kitsy.queuedAfterScripts[functionName] || []);
+			// overwrite original with one which will call each in order
+			obj[lastSegment] = function () {
+				var returnVal;
+				var args = [].slice.call(arguments);
+				var i = 0;
+				function runBefore() {
+					// All outta functions? Finish
+					if (i === functions.length) {
+						return returnVal;
+					}
+					// Update args if provided.
+					if (arguments.length > 0) {
+						args = [].slice.call(arguments);
+					}
+					if (functions[i].length > superFnLength) {
+						// Assume funcs that accept more args than the original are
+						// async and accept a callback as an additional argument.
+						return functions[i++].apply(this, args.concat(runBefore.bind(this)));
+					}
+					// run synchronously
+					returnVal = functions[i++].apply(this, args);
+					if (returnVal && returnVal.length) {
+						args = returnVal;
+					}
+					return runBefore.apply(this, args);
+				}
+				return runBefore.apply(this, arguments);
+			};
+		}
+		/**
+		@file kitsy-script-toolkit
+		@summary Monkey-patching toolkit to make it easier and cleaner to run code before and after functions or to inject new code into script tags
+		@license WTFPL (do WTF you want)
+		@author Original by mildmojo; modified by Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+		var kitsy = (window.kitsy = window.kitsy || {
+			queuedInjectScripts: [],
+			queuedBeforeScripts: {},
+			queuedAfterScripts: {},
+			inject: kitsyInject,
+			before: before$1,
+			after: after$1,
+			/**
+			 * Applies all queued `inject` calls.
+			 *
+			 * An object that instantiates an class modified via injection will still refer to the original class,
+			 * so make sure to reinitialize globals that refer to injected scripts before calling `applyHooks`.
+			 */
+			applyInjects,
+			/** Apples all queued `before`/`after` calls. */
+			applyHooks,
+		});
+
+		var hooked = kitsy.hooked;
+		if (!hooked) {
+			kitsy.hooked = true;
+			var oldStartFunc = bitsy.startExportedGame;
+			bitsy.startExportedGame = function doAllInjections() {
+				// Only do this once.
+				bitsy.startExportedGame = oldStartFunc;
+
+				// Rewrite scripts
+				kitsy.applyInjects();
+
+				// recreate the script and dialog objects so that they'll be
+				// referencing the code with injections instead of the original
+				bitsy.scriptModule = new bitsy.Script();
+				bitsy.scriptInterpreter = bitsy.scriptModule.CreateInterpreter();
+
+				bitsy.dialogModule = new bitsy.Dialog();
+				bitsy.dialogRenderer = bitsy.dialogModule.CreateRenderer();
+				bitsy.dialogBuffer = bitsy.dialogModule.CreateBuffer();
+				bitsy.renderer = new bitsy.TileRenderer(bitsy.tilesize);
+				bitsy.transition = new bitsy.TransitionManager();
+
+				// Hook everything
+				kitsy.applyHooks();
+
+				// reset callbacks using hacked functions
+				bitsy.bitsyOnUpdate(bitsy.update);
+				bitsy.bitsyOnQuit(bitsy.stopGame);
+				bitsy.bitsyOnLoad(bitsy.load_game);
+
+				// Start the game
+				bitsy.startExportedGame.apply(this, arguments);
+			};
+		}
+
+		/** @see kitsy.inject */
+		var inject = kitsy.inject;
+		/** @see kitsy.before */
+		var before = kitsy.before;
+		/** @see kitsy.after */
+		var after = kitsy.after;
+
+		// Rewrite custom functions' parentheses to curly braces for Bitsy's
+		// interpreter. Unescape escaped parentheticals, too.
+		function convertDialogTags(input, tag) {
+			return input.replace(new RegExp('\\\\?\\((' + tag + '(\\s+(".*?"|.+?))?)\\\\?\\)', 'g'), function (match, group) {
+				if (match.substr(0, 1) === '\\') {
+					return '(' + group + ')'; // Rewrite \(tag "..."|...\) to (tag "..."|...)
+				}
+				return '{' + group + '}'; // Rewrite (tag "..."|...) to {tag "..."|...}
+			});
+		}
+
+		function addDialogFunction(tag, fn) {
+			kitsy.dialogFunctions = kitsy.dialogFunctions || {};
+			if (kitsy.dialogFunctions[tag]) {
+				console.warn('The dialog function "' + tag + '" already exists.');
+				return;
+			}
+
+			// Hook into game load and rewrite custom functions in game data to Bitsy format.
+			before('parseWorld', function (gameData) {
+				return [convertDialogTags(gameData, tag)];
+			});
+
+			kitsy.dialogFunctions[tag] = fn;
+		}
+
+		function injectDialogTag(tag, code) {
+			inject(/(var functionMap = \{\};[^]*?)(this.HasFunction)/m, '$1\nfunctionMap["' + tag + '"] = ' + code + ';\n$2');
+		}
+
+		/**
+		 * Adds a custom dialog tag which executes the provided function.
+		 * For ease-of-use with the bitsy editor, tags can be written as
+		 * (tagname "parameters") in addition to the standard {tagname "parameters"}
+		 *
+		 * Function is executed immediately when the tag is reached.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters, onReturn){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 *                       onReturn: function to call with return value (just call `onReturn(null);` at the end of your function if your tag doesn't interact with the logic system)
+		 */
+		function addDialogTag(tag, fn) {
+			addDialogFunction(tag, fn);
+			injectDialogTag(tag, 'kitsy.dialogFunctions["' + tag + '"]');
+		}
+
+		/**
+		 * Adds a custom dialog tag which executes the provided function.
+		 * For ease-of-use with the bitsy editor, tags can be written as
+		 * (tagname "parameters") in addition to the standard {tagname "parameters"}
+		 *
+		 * Function is executed after the dialog box.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 */
+		function addDeferredDialogTag(tag, fn) {
+			addDialogFunction(tag, fn);
+			bitsy.kitsy.deferredDialogFunctions = bitsy.kitsy.deferredDialogFunctions || {};
+			var deferred = (bitsy.kitsy.deferredDialogFunctions[tag] = []);
+			injectDialogTag(tag, 'function(e, p, o){ kitsy.deferredDialogFunctions["' + tag + '"].push({e:e,p:p}); o(null); }');
+			// Hook into the dialog finish event and execute the actual function
+			after('onExitDialog', function () {
+				while (deferred.length) {
+					var args = deferred.shift();
+					bitsy.kitsy.dialogFunctions[tag](args.e, args.p, args.o);
+				}
+			});
+			// Hook into the game reset and make sure data gets cleared
+			after('clearGameData', function () {
+				deferred.length = 0;
+			});
+		}
+
+		/**
+		 * Adds two custom dialog tags which execute the provided function,
+		 * one with the provided tagname executed after the dialog box,
+		 * and one suffixed with 'Now' executed immediately when the tag is reached.
+		 *
+		 * i.e. helper for the (exit)/(exitNow) pattern.
+		 *
+		 * @param {string}   tag Name of tag
+		 * @param {Function} fn  Function to execute, with signature `function(environment, parameters){}`
+		 *                       environment: provides access to SetVariable/GetVariable (among other things, see Environment in the bitsy source for more info)
+		 *                       parameters: array containing parameters as string in first element (i.e. `parameters[0]`)
+		 */
+		function addDualDialogTag(tag, fn) {
+			addDialogTag(tag + 'Now', function (environment, parameters, onReturn) {
+				var result = fn(environment, parameters);
+				onReturn(result === undefined ? null : result);
+			});
+			addDeferredDialogTag(tag, fn);
+		}
+
+		/**
+		@file utils
+		@summary miscellaneous bitsy utilities
+		@author Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+
+		/**
+		 * Helper for getting room by name or id
+		 * @param {string} name id or name of room to return
+		 * @return {string} room, or undefined if it doesn't exist
+		 */
+		function getRoom(name) {
+			var id = Object.prototype.hasOwnProperty.call(bitsy.room, name) ? name : bitsy.names.room[name];
+			return bitsy.room[id];
+		}
+
+		function createAudio(id, options) {
+			// delete duplicate
+			var el = document.getElementById(id);
+			if (el) el.remove();
+
+			// create element
+			el = document.createElement('audio');
+			var src = options.src;
+			el.id = id;
+			Object.assign(el, options);
+			if (typeof src !== 'string') {
+				el.src = null;
+				src.forEach(function (s) {
+					var sourceEl = document.createElement('source');
+					sourceEl.src = s;
+					sourceEl.type = 'audio/' + s.split('.').pop();
+					el.appendChild(sourceEl);
+				});
+			}
+			document.body.appendChild(el);
+			return el;
+		}
+
+
+
+
+
+		var audioElementsById = {};
+		var currentMusic;
+		var roomMusicFlag = null;
+
+		after('load_game', function () {
+			var room;
+			// expand the map to include ids of rooms listed by name
+			Object.entries(hackOptions.musicByRoom).forEach(function (entry) {
+				room = getRoom(entry[0]);
+				if (room) {
+					hackOptions.musicByRoom[room.id] = entry[1];
+				}
+			});
+			// add audio tags from options
+			Object.entries(hackOptions.audio).forEach(function (entry) {
+				audioElementsById[entry[0]] = createAudio(entry[0], entry[1]);
+			});
+
+			// handle autoplay restrictions by playing then pausing
+			// every audio element on the first user interaction
+			function handleAutoPlayRestrictions() {
+				Object.values(audioElementsById).forEach(function (audio) {
+					audio.play();
+					// let the current song play
+					if (currentMusic === audio.id) {
+						return;
+					}
+					audio.pause();
+					audio.currentTime = 0;
+				});
+				document.body.removeEventListener('pointerup', handleAutoPlayRestrictions);
+				document.body.removeEventListener('keydown', handleAutoPlayRestrictions);
+			}
+
+			document.body.addEventListener('pointerup', handleAutoPlayRestrictions);
+			document.body.addEventListener('keydown', handleAutoPlayRestrictions);
+		});
+
+		function getAudio(id) {
+			var el = audioElementsById[id] || (audioElementsById[id] = document.getElementById(id));
+			if (!el) {
+				throw new Error("bitsymuse tried to use audio with id '" + id + "' but couldn't find one on the page!");
+			}
+			return el;
+		}
+
+		function playSound(soundParam) {
+			if (!soundParam) {
+				return;
+			}
+			getAudio(soundParam).play();
+		}
+
+		function changeMusic(newMusic) {
+			var audio;
+			// if we didn't get new music,
+			// or the music didn't change,
+			// there's no work to be done
+			if (!newMusic || newMusic === currentMusic) {
+				return;
+			}
+
+			// stop old music
+			if (currentMusic && currentMusic !== hackOptions.silenceId) {
+				audio = getAudio(currentMusic);
+				audio.pause();
+				if (!hackOptions.resume) {
+					audio.currentTime = 0.0;
+				}
+			}
+
+			// start new music
+			currentMusic = newMusic;
+			// special case: don't start anything new
+			if (newMusic === hackOptions.silenceId) {
+				return;
+			}
+			getAudio(newMusic).play();
+		}
+
+		after('drawRoom', function () {
+			if (roomMusicFlag !== bitsy.curRoom) {
+				changeMusic(hackOptions.musicByRoom[bitsy.curRoom]);
+				roomMusicFlag = bitsy.curRoom;
+			}
+		});
+
+		// Implement the dialog functions
+		addDualDialogTag('music', function (environment, parameters) {
+			if (!parameters[0]) {
+				throw new Error('{music/musicNow} was missing parameters! Usage: {music/musicNow "track name"}');
+			}
+			changeMusic(parameters[0]);
+		});
+
+		addDualDialogTag('soundeffect', function (environment, parameters) {
+			if (!parameters[0]) {
+				throw new Error('{soundeffect/soundeffectNow} was missing parameters! Usage: {soundeffect/soundeffectNow "track name"}');
+			}
+			playSound(parameters[0]);
+		});
+		// End of (music) dialog function mod
+
+		exports.hackOptions = hackOptions;
+
+		Object.defineProperty(exports, '__esModule', { value: true });
+
+	})(this.hacks.bitsymuse = this.hacks.bitsymuse || {}, window);
+
+</script>
+
+<script>
+
+	/**
+	↔
+	@file directional avatar
+	@summary flips the player's sprite based on directional movement
+	@license MIT
+	@author Sean S. LeBlanc
+	@version 20.2.3
+	@requires Bitsy 7.12
+	
+	
+	@description
+	Flips the player's sprite based on directional movement.
+	
+	HOW TO USE:
+	1. Copy-paste into a script tag after the bitsy source
+	2. Edit `horizontalFlipAllowed` and `verticalFlipAllowed` below as needed
+	*/
+	this.hacks = this.hacks || {};
+	(function (exports, bitsy) {
+		'use strict';
+		var hackOptions = {
+			allowed: function () {
+				return {
+					// If `horizontalFlipAllowed` is true:
+					// 	pressing left will make the player's sprite face backwards
+					// 	pressing right will make the player's sprite face forwards
+					horizontalFlipAllowed: true,
+					// If `verticalFlipAllowed` is true:
+					// 	pressing down will make the player's sprite upside-down
+					// 	pressing up will make the player's sprite right-side up
+					verticalFlipAllowed: false,
+				};
+			},
+		};
+
+		function _interopDefaultLegacy(e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+		bitsy = bitsy || /*#__PURE__*/_interopDefaultLegacy(bitsy);
+
+		/**
+		@file utils
+		@summary miscellaneous bitsy utilities
+		@author Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+
+		/*
+		Helper used to replace code in a script tag based on a search regex
+		To inject code without erasing original string, using capturing groups; e.g.
+			inject(/(some string)/,'injected before $1 injected after')
+		*/
+		function inject$1(searchRegex, replaceString) {
+			// find the relevant script tag
+			var scriptTags = document.getElementsByTagName('script');
+			var scriptTag;
+			var code;
+			for (var i = 0; i < scriptTags.length; ++i) {
+				scriptTag = scriptTags[i];
+				var matchesSearch = scriptTag.textContent.search(searchRegex) !== -1;
+				var isCurrentScript = scriptTag === document.currentScript;
+				if (matchesSearch && !isCurrentScript) {
+					code = scriptTag.textContent;
+					break;
+				}
+			}
+
+			// error-handling
+			if (!code) {
+				throw new Error('Couldn\'t find "' + searchRegex + '" in script tags');
+			}
+
+			// modify the content
+			code = code.replace(searchRegex, replaceString);
+
+			// replace the old script tag with a new one using our modified code
+			var newScriptTag = document.createElement('script');
+			newScriptTag.textContent = code;
+			scriptTag.insertAdjacentElement('afterend', newScriptTag);
+			scriptTag.remove();
+		}
+
+		/*
+		Helper for getting image by name or id
+		
+		Args:
+			name: id or name of image to return
+			 map: map of images (e.g. `sprite`, `tile`, `item`)
+		
+		Returns: the image in the given map with the given name/id
+		 */
+		function getImage(name, map) {
+			var id = Object.prototype.hasOwnProperty.call(map, name)
+				? name
+				: Object.keys(map).find(function (e) {
+					return map[e].name === name;
+				});
+			return map[id];
+		}
+
+		/**
+		@file edit image at runtime
+		@summary API for updating image data at runtime.
+		@author Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		@description
+		Adds API for updating sprite, tile, and item data at runtime.
+		
+		Individual frames of image data in bitsy are 8x8 1-bit 2D arrays in yx order
+		e.g. the default player is:
+		[
+			[0,0,0,1,1,0,0,0],
+			[0,0,0,1,1,0,0,0],
+			[0,0,0,1,1,0,0,0],
+			[0,0,1,1,1,1,0,0],
+			[0,1,1,1,1,1,1,0],
+			[1,0,1,1,1,1,0,1],
+			[0,0,1,0,0,1,0,0],
+			[0,0,1,0,0,1,0,0]
+		]
+		*/
+
+		// force cache to clear if edit image fns are used
+		inject$1(
+			/\/\/ TODO : reset render cache for this image/,
+			`
+Object.keys(drawingCache.render)
+	.filter(function (i) { return i.split('_').slice(0, -1).join('_') === drawingId; })
+	.forEach(function(i) { drawingCache.render[i] = undefined; })
+`
+		);
+
+		/*
+		Args:
+				 id: string id or name
+			frame: animation frame (0 or 1)
+				map: map of images (e.g. `sprite`, `tile`, `item`)
+		
+		Returns: a single frame of a image data
+		*/
+		function getImageData(id, frame, map) {
+			return bitsy.renderer.GetDrawingSource(getImage(id, map).drw)[frame];
+		}
+
+		function getSpriteData(id, frame) {
+			return getImageData(id, frame, bitsy.sprite);
+		}
+
+		/*
+		Updates a single frame of image data
+		
+		Args:
+					 id: string id or name
+				frame: animation frame (0 or 1)
+					map: map of images (e.g. `sprite`, `tile`, `item`)
+			newData: new data to write to the image data
+		*/
+		function setImageData(id, frame, map, newData) {
+			var drawing = getImage(id, map);
+			var drw = drawing.drw;
+			var img = bitsy.renderer.GetDrawingSource(drw).slice();
+			img[frame] = newData;
+			bitsy.renderer.SetDrawingSource(drw, img);
+		}
+
+		function setSpriteData(id, frame, newData) {
+			setImageData(id, frame, bitsy.sprite, newData);
+		}
+
+		/**
+		 * Helper used to replace code in a script tag based on a search regex.
+		 * To inject code without erasing original string, using capturing groups; e.g.
+		 * ```js
+		 * inject(/(some string)/,'injected before $1 injected after');
+		 * ```
+		 * @param searcher Regex to search and replace
+		 * @param replacer Replacer string/fn
+		 */
+		function inject(searcher, replacer) {
+			// find the relevant script tag
+			var scriptTags = document.getElementsByTagName('script');
+			var scriptTag;
+			var code = '';
+			for (var i = 0; i < scriptTags.length; ++i) {
+				scriptTag = scriptTags[i];
+				if (!scriptTag.textContent)
+					continue;
+				var matchesSearch = scriptTag.textContent.search(searcher) !== -1;
+				var isCurrentScript = scriptTag === document.currentScript;
+				if (matchesSearch && !isCurrentScript) {
+					code = scriptTag.textContent;
+					break;
+				}
+			}
+			// error-handling
+			if (!code || !scriptTag) {
+				throw new Error('Couldn\'t find "' + searcher + '" in script tags');
+			}
+			// modify the content
+			code = code.replace(searcher, replacer);
+			// replace the old script tag with a new one using our modified code
+			var newScriptTag = document.createElement('script');
+			newScriptTag.textContent = code;
+			scriptTag.insertAdjacentElement('afterend', newScriptTag);
+			scriptTag.remove();
+		}
+		/**
+		 * Helper for getting an array with unique elements
+		 * @param  {Array} array Original array
+		 * @return {Array}       Copy of array, excluding duplicates
+		 */
+		function unique(array) {
+			return array.filter(function (item, idx) {
+				return array.indexOf(item) === idx;
+			});
+		}
+		// Ex: inject(/(names.sprite.set\( name, id \);)/, '$1console.dir(names)');
+		/** test */
+		function kitsyInject(searcher, replacer) {
+			if (!kitsy.queuedInjectScripts.some(function (script) {
+				return searcher.toString() === script.searcher.toString() && replacer === script.replacer;
+			})) {
+				kitsy.queuedInjectScripts.push({
+					searcher: searcher,
+					replacer: replacer,
+				});
+			}
+			else {
+				console.warn('Ignored duplicate inject');
+			}
+		}
+		// Ex: before('load_game', function run() { alert('Loading!'); });
+		//     before('show_text', function run(text) { return text.toUpperCase(); });
+		//     before('show_text', function run(text, done) { done(text.toUpperCase()); });
+		function before(targetFuncName, beforeFn) {
+			kitsy.queuedBeforeScripts[targetFuncName] = kitsy.queuedBeforeScripts[targetFuncName] || [];
+			kitsy.queuedBeforeScripts[targetFuncName].push(beforeFn);
+		}
+		// Ex: after('load_game', function run() { alert('Loaded!'); });
+		function after$1(targetFuncName, afterFn) {
+			kitsy.queuedAfterScripts[targetFuncName] = kitsy.queuedAfterScripts[targetFuncName] || [];
+			kitsy.queuedAfterScripts[targetFuncName].push(afterFn);
+		}
+		function applyInjects() {
+			kitsy.queuedInjectScripts.forEach(function (injectScript) {
+				inject(injectScript.searcher, injectScript.replacer);
+			});
+		}
+		function applyHooks(root) {
+			var allHooks = unique(Object.keys(kitsy.queuedBeforeScripts).concat(Object.keys(kitsy.queuedAfterScripts)));
+			allHooks.forEach(applyHook.bind(this, root || window));
+		}
+		function applyHook(root, functionName) {
+			var functionNameSegments = functionName.split('.');
+			var obj = root;
+			while (functionNameSegments.length > 1) {
+				obj = obj[functionNameSegments.shift()];
+			}
+			var lastSegment = functionNameSegments[0];
+			var superFn = obj[lastSegment];
+			var superFnLength = superFn ? superFn.length : 0;
+			var functions = [];
+			// start with befores
+			functions = functions.concat(kitsy.queuedBeforeScripts[functionName] || []);
+			// then original
+			if (superFn) {
+				functions.push(superFn);
+			}
+			// then afters
+			functions = functions.concat(kitsy.queuedAfterScripts[functionName] || []);
+			// overwrite original with one which will call each in order
+			obj[lastSegment] = function () {
+				var returnVal;
+				var args = [].slice.call(arguments);
+				var i = 0;
+				function runBefore() {
+					// All outta functions? Finish
+					if (i === functions.length) {
+						return returnVal;
+					}
+					// Update args if provided.
+					if (arguments.length > 0) {
+						args = [].slice.call(arguments);
+					}
+					if (functions[i].length > superFnLength) {
+						// Assume funcs that accept more args than the original are
+						// async and accept a callback as an additional argument.
+						return functions[i++].apply(this, args.concat(runBefore.bind(this)));
+					}
+					// run synchronously
+					returnVal = functions[i++].apply(this, args);
+					if (returnVal && returnVal.length) {
+						args = returnVal;
+					}
+					return runBefore.apply(this, args);
+				}
+				return runBefore.apply(this, arguments);
+			};
+		}
+		/**
+		@file kitsy-script-toolkit
+		@summary Monkey-patching toolkit to make it easier and cleaner to run code before and after functions or to inject new code into script tags
+		@license WTFPL (do WTF you want)
+		@author Original by mildmojo; modified by Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+		var kitsy = (window.kitsy = window.kitsy || {
+			queuedInjectScripts: [],
+			queuedBeforeScripts: {},
+			queuedAfterScripts: {},
+			inject: kitsyInject,
+			before,
+			after: after$1,
+			/**
+			 * Applies all queued `inject` calls.
+			 *
+			 * An object that instantiates an class modified via injection will still refer to the original class,
+			 * so make sure to reinitialize globals that refer to injected scripts before calling `applyHooks`.
+			 */
+			applyInjects,
+			/** Apples all queued `before`/`after` calls. */
+			applyHooks,
+		});
+
+		var hooked = kitsy.hooked;
+		if (!hooked) {
+			kitsy.hooked = true;
+			var oldStartFunc = bitsy.startExportedGame;
+			bitsy.startExportedGame = function doAllInjections() {
+				// Only do this once.
+				bitsy.startExportedGame = oldStartFunc;
+
+				// Rewrite scripts
+				kitsy.applyInjects();
+
+				// recreate the script and dialog objects so that they'll be
+				// referencing the code with injections instead of the original
+				bitsy.scriptModule = new bitsy.Script();
+				bitsy.scriptInterpreter = bitsy.scriptModule.CreateInterpreter();
+
+				bitsy.dialogModule = new bitsy.Dialog();
+				bitsy.dialogRenderer = bitsy.dialogModule.CreateRenderer();
+				bitsy.dialogBuffer = bitsy.dialogModule.CreateBuffer();
+				bitsy.renderer = new bitsy.TileRenderer(bitsy.tilesize);
+				bitsy.transition = new bitsy.TransitionManager();
+
+				// Hook everything
+				kitsy.applyHooks();
+
+				// reset callbacks using hacked functions
+				bitsy.bitsyOnUpdate(bitsy.update);
+				bitsy.bitsyOnQuit(bitsy.stopGame);
+				bitsy.bitsyOnLoad(bitsy.load_game);
+
+				// Start the game
+				bitsy.startExportedGame.apply(this, arguments);
+			};
+		}
+
+		/** @see kitsy.inject */
+		kitsy.inject;
+		/** @see kitsy.before */
+		kitsy.before;
+		/** @see kitsy.after */
+		var after = kitsy.after;
+
+		/**
+		@file transform sprite data
+		@summary Helpers for flipping and rotating sprite data
+		*/
+
+		// copied from https://stackoverflow.com/a/46805290
+		function transpose(matrix) {
+			const rows = matrix.length;
+			const cols = matrix[0].length;
+			const grid = [];
+			for (let j = 0; j < cols; j++) {
+				grid[j] = Array(rows);
+			}
+			for (let i = 0; i < rows; i++) {
+				for (let j = 0; j < cols; j++) {
+					grid[j][i] = matrix[i][j];
+				}
+			}
+			return grid;
+		}
+
+		// helper function to flip sprite data
+		function transformSpriteData(spriteData, v, h, rot) {
+			var x;
+			var y;
+			var x2;
+			var y2;
+			var col;
+			var tmp;
+			var s = spriteData.slice();
+			if (v) {
+				for (y = 0; y < s.length / 2; ++y) {
+					y2 = s.length - y - 1;
+					tmp = s[y];
+					s[y] = s[y2];
+					s[y2] = tmp;
+				}
+			}
+			if (h) {
+				for (y = 0; y < s.length; ++y) {
+					col = s[y] = s[y].slice();
+					for (x = 0; x < col.length / 2; ++x) {
+						x2 = col.length - x - 1;
+						tmp = col[x];
+						col[x] = col[x2];
+						col[x2] = tmp;
+					}
+				}
+			}
+			if (rot) {
+				s = transpose(s);
+			}
+			return s;
+		}
+
+
+
+
+
+		var hflip = false;
+		var vflip = false;
+		var originalAnimation;
+
+		after('updateInput', function () {
+			var i;
+			// save the original frames
+			if (!originalAnimation || originalAnimation.referenceFrame !== getSpriteData(bitsy.playerId, 0)) {
+				originalAnimation = {
+					frames: [],
+				};
+				for (i = 0; i < bitsy.player().animation.frameCount; ++i) {
+					originalAnimation.frames.push(getSpriteData(bitsy.playerId, i));
+				}
+			}
+
+			// determine which directions need flipping
+			var allowed = hackOptions.allowed();
+			switch (bitsy.curPlayerDirection) {
+				case bitsy.Direction.Up:
+					vflip = false;
+					break;
+				case bitsy.Direction.Down:
+					vflip = allowed.verticalFlipAllowed;
+					break;
+				case bitsy.Direction.Left:
+					hflip = allowed.horizontalFlipAllowed;
+					break;
+				case bitsy.Direction.Right:
+					hflip = false;
+					break;
+			}
+
+			// update sprite with flipped frames
+			for (i = 0; i < originalAnimation.frames.length; ++i) {
+				setSpriteData(bitsy.playerId, i, transformSpriteData(originalAnimation.frames[i], vflip, hflip));
+			}
+			originalAnimation.referenceFrame = getSpriteData(bitsy.playerId, 0);
+		});
+
+		exports.hackOptions = hackOptions;
+
+		Object.defineProperty(exports, '__esModule', { value: true });
+
+	})(this.hacks.directional_avatar = this.hacks.directional_avatar || {}, window);
+
+</script>
+
+<script>
+	/**
+	🏃
+	@file smooth moves
+	@summary ease the player's movement
+	@license MIT
+	@author Sean S. LeBlanc
+	@version 20.2.3
+	@requires Bitsy 7.12
+	
+	
+	@description
+	Makes the player avatar ease in between positions instead of moving immediately.
+	Speed and easing function are configurable.
+	
+	HOW TO USE:
+	1. Copy-paste this script into a script tag after the bitsy source
+	2. Edit hackOptions below as needed
+	*/
+	this.hacks = this.hacks || {};
+	(function (exports, bitsy) {
+		'use strict';
+		var hackOptions = {
+			// duration of ease in ms
+			duration: 100,
+			// max distance to allow tweens
+			delta: 1.5,
+			// easing function
+			ease: function (t) {
+				t = 1 - (1 - t) ** 2;
+				return t;
+			},
+		};
+
+		function _interopDefaultLegacy(e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+		bitsy = bitsy || /*#__PURE__*/_interopDefaultLegacy(bitsy);
+
+		/**
+		 * Helper used to replace code in a script tag based on a search regex.
+		 * To inject code without erasing original string, using capturing groups; e.g.
+		 * ```js
+		 * inject(/(some string)/,'injected before $1 injected after');
+		 * ```
+		 * @param searcher Regex to search and replace
+		 * @param replacer Replacer string/fn
+		 */
+		function inject(searcher, replacer) {
+			// find the relevant script tag
+			var scriptTags = document.getElementsByTagName('script');
+			var scriptTag;
+			var code = '';
+			for (var i = 0; i < scriptTags.length; ++i) {
+				scriptTag = scriptTags[i];
+				if (!scriptTag.textContent)
+					continue;
+				var matchesSearch = scriptTag.textContent.search(searcher) !== -1;
+				var isCurrentScript = scriptTag === document.currentScript;
+				if (matchesSearch && !isCurrentScript) {
+					code = scriptTag.textContent;
+					break;
+				}
+			}
+			// error-handling
+			if (!code || !scriptTag) {
+				throw new Error('Couldn\'t find "' + searcher + '" in script tags');
+			}
+			// modify the content
+			code = code.replace(searcher, replacer);
+			// replace the old script tag with a new one using our modified code
+			var newScriptTag = document.createElement('script');
+			newScriptTag.textContent = code;
+			scriptTag.insertAdjacentElement('afterend', newScriptTag);
+			scriptTag.remove();
+		}
+		/**
+		 * Helper for getting an array with unique elements
+		 * @param  {Array} array Original array
+		 * @return {Array}       Copy of array, excluding duplicates
+		 */
+		function unique(array) {
+			return array.filter(function (item, idx) {
+				return array.indexOf(item) === idx;
+			});
+		}
+		// Ex: inject(/(names.sprite.set\( name, id \);)/, '$1console.dir(names)');
+		/** test */
+		function kitsyInject(searcher, replacer) {
+			if (!kitsy.queuedInjectScripts.some(function (script) {
+				return searcher.toString() === script.searcher.toString() && replacer === script.replacer;
+			})) {
+				kitsy.queuedInjectScripts.push({
+					searcher: searcher,
+					replacer: replacer,
+				});
+			}
+			else {
+				console.warn('Ignored duplicate inject');
+			}
+		}
+		// Ex: before('load_game', function run() { alert('Loading!'); });
+		//     before('show_text', function run(text) { return text.toUpperCase(); });
+		//     before('show_text', function run(text, done) { done(text.toUpperCase()); });
+		function before$1(targetFuncName, beforeFn) {
+			kitsy.queuedBeforeScripts[targetFuncName] = kitsy.queuedBeforeScripts[targetFuncName] || [];
+			kitsy.queuedBeforeScripts[targetFuncName].push(beforeFn);
+		}
+		// Ex: after('load_game', function run() { alert('Loaded!'); });
+		function after$1(targetFuncName, afterFn) {
+			kitsy.queuedAfterScripts[targetFuncName] = kitsy.queuedAfterScripts[targetFuncName] || [];
+			kitsy.queuedAfterScripts[targetFuncName].push(afterFn);
+		}
+		function applyInjects() {
+			kitsy.queuedInjectScripts.forEach(function (injectScript) {
+				inject(injectScript.searcher, injectScript.replacer);
+			});
+		}
+		function applyHooks(root) {
+			var allHooks = unique(Object.keys(kitsy.queuedBeforeScripts).concat(Object.keys(kitsy.queuedAfterScripts)));
+			allHooks.forEach(applyHook.bind(this, root || window));
+		}
+		function applyHook(root, functionName) {
+			var functionNameSegments = functionName.split('.');
+			var obj = root;
+			while (functionNameSegments.length > 1) {
+				obj = obj[functionNameSegments.shift()];
+			}
+			var lastSegment = functionNameSegments[0];
+			var superFn = obj[lastSegment];
+			var superFnLength = superFn ? superFn.length : 0;
+			var functions = [];
+			// start with befores
+			functions = functions.concat(kitsy.queuedBeforeScripts[functionName] || []);
+			// then original
+			if (superFn) {
+				functions.push(superFn);
+			}
+			// then afters
+			functions = functions.concat(kitsy.queuedAfterScripts[functionName] || []);
+			// overwrite original with one which will call each in order
+			obj[lastSegment] = function () {
+				var returnVal;
+				var args = [].slice.call(arguments);
+				var i = 0;
+				function runBefore() {
+					// All outta functions? Finish
+					if (i === functions.length) {
+						return returnVal;
+					}
+					// Update args if provided.
+					if (arguments.length > 0) {
+						args = [].slice.call(arguments);
+					}
+					if (functions[i].length > superFnLength) {
+						// Assume funcs that accept more args than the original are
+						// async and accept a callback as an additional argument.
+						return functions[i++].apply(this, args.concat(runBefore.bind(this)));
+					}
+					// run synchronously
+					returnVal = functions[i++].apply(this, args);
+					if (returnVal && returnVal.length) {
+						args = returnVal;
+					}
+					return runBefore.apply(this, args);
+				}
+				return runBefore.apply(this, arguments);
+			};
+		}
+		/**
+		@file kitsy-script-toolkit
+		@summary Monkey-patching toolkit to make it easier and cleaner to run code before and after functions or to inject new code into script tags
+		@license WTFPL (do WTF you want)
+		@author Original by mildmojo; modified by Sean S. LeBlanc
+		@version 20.2.3
+		@requires Bitsy 7.12
+		
+		*/
+		var kitsy = (window.kitsy = window.kitsy || {
+			queuedInjectScripts: [],
+			queuedBeforeScripts: {},
+			queuedAfterScripts: {},
+			inject: kitsyInject,
+			before: before$1,
+			after: after$1,
+			/**
+			 * Applies all queued `inject` calls.
+			 *
+			 * An object that instantiates an class modified via injection will still refer to the original class,
+			 * so make sure to reinitialize globals that refer to injected scripts before calling `applyHooks`.
+			 */
+			applyInjects,
+			/** Apples all queued `before`/`after` calls. */
+			applyHooks,
+		});
+
+		var hooked = kitsy.hooked;
+		if (!hooked) {
+			kitsy.hooked = true;
+			var oldStartFunc = bitsy.startExportedGame;
+			bitsy.startExportedGame = function doAllInjections() {
+				// Only do this once.
+				bitsy.startExportedGame = oldStartFunc;
+
+				// Rewrite scripts
+				kitsy.applyInjects();
+
+				// recreate the script and dialog objects so that they'll be
+				// referencing the code with injections instead of the original
+				bitsy.scriptModule = new bitsy.Script();
+				bitsy.scriptInterpreter = bitsy.scriptModule.CreateInterpreter();
+
+				bitsy.dialogModule = new bitsy.Dialog();
+				bitsy.dialogRenderer = bitsy.dialogModule.CreateRenderer();
+				bitsy.dialogBuffer = bitsy.dialogModule.CreateBuffer();
+				bitsy.renderer = new bitsy.TileRenderer(bitsy.tilesize);
+				bitsy.transition = new bitsy.TransitionManager();
+
+				// Hook everything
+				kitsy.applyHooks();
+
+				// reset callbacks using hacked functions
+				bitsy.bitsyOnUpdate(bitsy.update);
+				bitsy.bitsyOnQuit(bitsy.stopGame);
+				bitsy.bitsyOnLoad(bitsy.load_game);
+
+				// Start the game
+				bitsy.startExportedGame.apply(this, arguments);
+			};
+		}
+
+		/** @see kitsy.inject */
+		kitsy.inject;
+		/** @see kitsy.before */
+		var before = kitsy.before;
+		/** @see kitsy.after */
+		var after = kitsy.after;
+
+
+
+
+
+		// smooth move
+		var tweens = {};
+		var sprites = {};
+
+		function addTween(spr, fromX, fromY, toX, toY) {
+			if (Math.abs(toX - fromX) + Math.abs(toY - fromY) > hackOptions.delta) {
+				delete tweens[spr];
+			} else {
+				var t = (tweens[spr] = tweens[spr] || {});
+				t.fromX = fromX;
+				t.fromY = fromY;
+				t.toX = toX;
+				t.toY = toY;
+				t.start = bitsy.prevTime;
+			}
+		}
+		before('onready', function () {
+			tweens = {};
+			sprites = {};
+		});
+
+		// listen for changes in sprite positions to add tweens
+		before('update', function () {
+			Object.values(bitsy.sprite).forEach(spr => {
+				if (spr.room === bitsy.curRoom) {
+					var s = (sprites[spr.id] = sprites[spr.id] || {});
+					s.x = spr.x;
+					s.y = spr.y;
+				} else {
+					delete sprites[spr.id];
+				}
+			});
+		});
+
+		function addTweens() {
+			Object.entries(sprites).forEach(function (entry) {
+				var spr = bitsy.sprite[entry[0]];
+				var pos = entry[1];
+				if (pos.x !== spr.x || pos.y !== spr.y) {
+					addTween(spr.id, pos.x, pos.y, spr.x, spr.y);
+				}
+			});
+		}
+		after('updateInput', addTweens);
+		after('update', addTweens);
+		// before drawing, update sprite positions to tweened values
+		before('drawRoom', function () {
+			Object.entries(tweens).forEach(function (entry) {
+				var tween = entry[1];
+				var t = hackOptions.ease(Math.min(1, (bitsy.prevTime - tween.start) / hackOptions.duration));
+				var sprite = bitsy.sprite[entry[0]];
+				sprite.x = tween.fromX + (tween.toX - tween.fromX) * t;
+				sprite.y = tween.fromY + (tween.toY - tween.fromY) * t;
+			});
+		});
+		// after drawing, update sprite positions back to normal
+		after('drawRoom', function () {
+			Object.entries(tweens).forEach(function (entry) {
+				var tween = entry[1];
+				var sprite = bitsy.sprite[entry[0]];
+				sprite.x = tween.toX;
+				sprite.y = tween.toY;
+			});
+		});
+
+		exports.hackOptions = hackOptions;
+
+		Object.defineProperty(exports, '__esModule', { value: true });
+
+	})(this.hacks.smooth_moves = this.hacks.smooth_moves || {}, window);
+
 </script>
 
 </head>
